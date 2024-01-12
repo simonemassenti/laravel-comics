@@ -1,5 +1,93 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-color: lightgreen;
+// Colors
+$primary_color: #0282F9;
+$primary_color_text: white;
+$secondary_color_text: gray;
+$footer_color: #303030;
+
+//Font
+$text_font_family: "Open Sans", sans-serif;
+
+// Width
+$width: 80%;
+
+img {
+    max-width: 100%;
+}
+
+.bg-primary {
+    background-color: $primary_color;
+}
+
+//header
+.container-nav {
+    height: 100px;
+
+    nav {
+        li {
+            margin-right: 1rem;
+            font-size: .8rem;
+            font-weight: 600;
+            height: 5rem;
+            line-height: 5rem;
+
+            &.active {
+                color: $primary_color;
+                border-bottom: 5px solid $primary_color;
+            }
+        }
+
+    }
+}
+
+.selected {
+    border-bottom: 2px solid $primary_color;
+}
+
+//jumbotron
+
+.jumbo {
+    height: 20rem;
+    overflow: hidden;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+//series
+.main {
+    .wrapper {
+        background-color: black;
+    }
+
+    .ms_container {
+
+        color: $primary_color_text;
+        font-weight: bold;
+        width: 90%;
+        margin: 0 auto;
+
+        .p-name {
+            position: relative;
+            top: -7px;
+            left: 10%;
+            padding: .3rem .7rem;
+            background-color: $primary_color;
+            display: inline;
+        }
+
+        .ms_row {
+            display: flex;
+            justify-content: flex-start;
+            align-items: top;
+            flex-wrap: wrap;
+
+            .ms_col {
+                width: calc(100% / 6);
+            }
+
+        }
+    }
 }
