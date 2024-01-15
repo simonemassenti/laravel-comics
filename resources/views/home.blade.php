@@ -13,7 +13,7 @@
                 <div class="ms_row">
                     @foreach ($comics as $comic)
                         <div class="ms_col">
-                            <div >
+                            <div class="comic">
                                 <div>
                                     <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                                 </div>
