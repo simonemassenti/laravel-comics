@@ -191,3 +191,41 @@ img {
 }
 
 // footer-bottom
+.wrap-fb {
+    background-color: $footer_color;
+    .container {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 1rem;
+
+    .signup {
+        border: 2px solid $primary_color;
+        padding: .5rem;
+        color: $primary_color_text;
+    }
+
+    div {
+        display: flex;
+        h3 {
+            color: $primary_color;
+            margin-right: 1rem
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            li{
+                margin-right: .5rem;
+                width: 30px;
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+}

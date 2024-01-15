@@ -17,3 +17,11 @@ Route::get('/', function () {
     $comics = config('comics');
     return view('home', compact('comics'));
 })->name('home');
+
+Route::get('/characters', function() {
+    return view('characters');
+})->name('characters');
+
+Route::get('/tv', function(){
+    return view('tv');
+})->name('tv');

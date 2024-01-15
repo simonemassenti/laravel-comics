@@ -17,7 +17,7 @@
         <nav class="ms-3">
             <ul class="list-unstyled">
                 <li class="list-inline-item">
-                    <a href="{{ route('home')}}"  class="text-reset text-decoration-none fw-bold">
+                    <a href="{{ route('characters')}}"  class="text-reset text-decoration-none fw-bold">
                         CHARACTERS
                     </a>
                 </li>
@@ -32,7 +32,7 @@
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="{{ route('home')}}"  class="text-reset text-decoration-none fw-bold">
+                    <a href="{{ route('tv')}}"  class="text-reset text-decoration-none fw-bold">
                         TV
                     </a>
                 </li>
